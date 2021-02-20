@@ -19,3 +19,8 @@ def factorial(n):
     return 1
   return = n* factorial(n - 1)
  ```
+### Education ###
+Nonlinear Dynamics, Computer Science and Control department of Saint-Petersburg State University
+
+### English ###
+Upper intermediate (B2)
