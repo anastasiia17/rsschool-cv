@@ -98,3 +98,17 @@ section {
 ul {
   padding-left: 20px;
 }
+
+footer  {
+  height: 70px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #464646;
+}
+
+footer time  {
+  font-size: 30px;
+  color: #ffffff;
+}
