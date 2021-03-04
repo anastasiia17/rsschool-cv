@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -59,17 +60,15 @@ h2::after {
   border-bottom: 1px solid #464646;
   margin-bottom: 10px;
 }
-.left {
+.right {
   background-color: #b0b0b0;
   padding: 20px;
   flex: 1;
-  height: 100%;
 }
 
-.right {
+.left {
   padding: 20px;
-  flex: 3;
-  height: 100%;
+  flex: 2;
 }
 
 .italic {
@@ -99,16 +98,26 @@ ul {
   padding-left: 20px;
 }
 
-footer  {
+.footer {
   height: 70px;
   padding: 20px 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background: #464646;
 }
 
-footer time  {
+.footer a{
+  margin: 5px;
+  font-size: 30px;
+  color: rgb(128, 128, 128);
+}
+
+.footer a:hover{
+  color: rgb(111, 9, 206);
+}
+
+.footer p {
   font-size: 30px;
   color: #ffffff;
 }
