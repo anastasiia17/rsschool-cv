@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  background-color: rgba(206, 198, 198, 0.479);
+}
+
+.header {
+  display: flex;
+  height: 200px;
+  background-color: #b0b0b0;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header__photo-box {
+  width: 200px;
+  height: 200px;
+}
+
+.header__photo {
+  width: 150px;
+  height: 150px;
+  margin: 25px 25px;
+}
+
+.header__full-name {
+  font-family: "Khand", sans-serif;
+  font-size: 40px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+main {
+  display: flex;
+  padding: 0 1em;
+}
+
+h2 {
+  font-family: "Khand", sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #464646;
+}
+h2::after {
+  content: "";
+  display: block;
+  border-bottom: 1px solid #464646;
+  margin-bottom: 10px;
+}
+.right {
+  background-color: #b0b0b0;
+  padding: 20px;
+  flex: 1;
+}
+
+.left {
+  padding: 20px;
+  flex: 2;
+}
+
+.italic {
+  font-style: italic;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+
+.contact-info__link,
+.code-example__link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.contact-info__link:hover,
+.code-example__link:hover {
+  color: rgb(111, 9, 206);
+  text-decoration: underline;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.footer {
+  height: 70px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #464646;
+}
+
+.footer a{
+  margin: 5px;
+  font-size: 30px;
+  color: rgb(128, 128, 128);
+}
+
+.footer a:hover{
+  color: rgb(111, 9, 206);
+}
+
+.footer p {
+  font-size: 30px;
+  color: #ffffff;
+}
